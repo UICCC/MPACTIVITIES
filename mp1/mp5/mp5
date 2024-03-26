@@ -56,4 +56,12 @@ print:
     ; Exit the program
     mov eax, 1           
     xor ebx, ebx         
-    int 0x80             
+    int 0x80           
+
+
+
+
+
+nasm -f elf mp5.asm
+ld -m  elf_i386 mp5.o -o mp5
+./mp5
