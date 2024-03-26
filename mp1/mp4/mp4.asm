@@ -22,7 +22,7 @@ _start:
     add byte [buffer], 32  
 
 not_uppercase:
-    ; Display the entered character
+   
     mov eax, 4           
     mov ebx, 1          
     mov ecx, buffer      
